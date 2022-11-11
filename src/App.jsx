@@ -1,14 +1,16 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import ToDoDisplay from './components/ToDoDisplay';
+import Kekambas from './components/Kekambas';
+import KekambasClass from './components/KekambasClass';
 
-export default function App(props) {
+function App() {
+
     return (
         <>
-            <Navbar/>
             <div className="container">
-                <ToDoDisplay />
+                <KekambasClass />
+                <Kekambas />
             </div>
         </>
     )
 }
+
+export default App;
